@@ -1,9 +1,10 @@
-import React from 'react';
-import gpt3Logo from '../../logo.svg';
+import React from 'react'
+import gpt3Logo from '../../assets/logo.svg';
 import './footer.css';
 
-const Footer = () => (
-  <div className="gpt3__footer section__padding">
+const Footer = () => {
+  return (
+    <div className="gpt3__footer section__padding">
     <div className="gpt3__footer-heading">
       <h1 className="gradient__text">Do you want to step in to the future before others</h1>
     </div>
@@ -42,6 +43,7 @@ const Footer = () => (
       <p>@2021 GPT-3. All rights reserved.</p>
     </div>
   </div>
-);
+  )
+}
 
-export default Footer;
+export default Footer

@@ -1,10 +1,10 @@
-
 import React from 'react';
 import possibilityImage from '../../assets/possibility.png';
 import './possibility.css';
 
-const Possibility = () => (
-  <div className="gpt3__possibility section__padding" id="possibility">
+const Possibility = () => {
+  return (
+    <div className="gpt3__possibility section__padding" id="possibility">
     <div className="gpt3__possibility-image">
       <img src={possibilityImage} alt="possibility" />
     </div>
@@ -15,6 +15,7 @@ const Possibility = () => (
       <h4>Request Early Access to Get Started</h4>
     </div>
   </div>
-);
+  )
+}
 
-export default Possibility;
+export default Possibility
